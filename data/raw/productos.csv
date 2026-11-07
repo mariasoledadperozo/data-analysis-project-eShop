@@ -1,0 +1,21 @@
+id_producto,nombre,categoria,precio
+1,Portátil Nova 15,Informática,749.9
+2,Ratón inalámbrico Glide,Informática,19.99
+3,Teclado mecánico Click,Informática,59.95
+4,Monitor 24 pulgadas,Informática,139.0
+5,Auriculares Bluetooth Pulse,Electrónica,49.9
+6,Altavoz portátil Boom,Electrónica,34.5
+7,Smartwatch Fit Pro,Electrónica,89.0
+8,Cámara de acción Go4K,Electrónica,119.99
+9,Zapatillas running Aero,Deportes,64.9
+10,Esterilla de yoga,Deportes,18.5
+11,Mancuernas 10 kg (par),Deportes,29.9
+12,Botella térmica 750 ml,Deportes,14.95
+13,Lámpara de escritorio LED,Hogar,24.9
+14,Cafetera de cápsulas,Hogar,59.0
+15,Juego de sábanas algodón,Hogar,39.9
+16,Aspirador robot Clean,Hogar,199.0
+17,Mochila urbana 20 L,Moda,34.95
+18,Chaqueta impermeable,Moda,79.9
+19,Gafas de sol Retro,Moda,29.0
+20,Cartera de piel,Moda,27.5
