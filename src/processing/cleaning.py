@@ -28,7 +28,7 @@ def fillMissingValues(
         )
 
     else:
-        raise ValueError("Data type is not supported")
+        raise ValueError('Data type is not supported')
 
     return rawData
 """
@@ -43,13 +43,11 @@ def settingFormat(rawData: pd.DataFrame,
     if typeData.lower == 'string':
         rawData[colToClean] = rawData[colToClean].str.strip().str.capitalize()
 
+    else:
+        raise ValueError('Data type is not supported')
+
     return rawData
 
 
-def fillAverageSale(rawData: pd.DataFrame):
-        sales = rawData.merge(
-        rawData[["id_producto", "precio"]],
-        on="id_producto",
-        how="left"
-    )
+
 
