@@ -40,7 +40,7 @@ def settingFormat(rawData: pd.DataFrame,
                     colToClean: str,
                     typeData: str) -> pd.DataFrame:
 
-    if typeData.lower == 'string':
+    if typeData.lower() == 'string':
         rawData[colToClean] = rawData[colToClean].str.strip().str.capitalize()
 
     else:
